@@ -1,9 +1,9 @@
 {
-	"name": "eslint-config-linting",
+	"name": "@malcolm-mclean/eslint-config",
 	"version": "1.0.0",
 	"description": "Shared Typescript linting styles for my personal projects",
 	"main": "index.js",
-	"repository": "git@github.com:malcolm-mclean/eslint-config-linting.git",
+	"repository": "git@github.com:malcolm-mclean/eslint-config.git",
 	"author": "Malcolm McLean",
 	"license": "MIT",
 	"private": false,
