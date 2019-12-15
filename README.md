@@ -6,13 +6,13 @@ Shared Typescript linting styles for all of my personal projects.
 1. Install dependencies:
 
 ```sh
-yarn add -D malcolm-mclean/linting
+yarn add -D malcolm-mclean/eslint-config-linting
 ```
 
 2. Update `.eslintrc.js`:
 
 ```js
 {
-	extends: 'malcolm-mclean/linting'
+	extends: 'linting'
 }
 ```
