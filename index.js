@@ -3,6 +3,7 @@ module.exports = {
 		"plugin:@typescript-eslint/eslint-recommended",
 		"plugin:@typescript-eslint/recommended",
 		"plugin:react/recommended",
+		"plugin:react-hooks/recommended",
 		"prettier"
 	],
 	"env": {
