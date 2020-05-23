@@ -25,7 +25,6 @@ module.exports = {
 		}
 	},
 	"rules": {
-		"@typescript-eslint/explicit-function-return-type": 0,
 		"react/no-unescaped-entities": 0
 	},
 	"overrides": [

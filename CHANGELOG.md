@@ -1,3 +1,7 @@
+## v2.0.0 | 23 May 2020
+
+- Updated all packages
+
 ## v1.1.1 | 18 April 2020
 
 - Fixed missing `extends` for `eslint-plugin-react-hooks`
