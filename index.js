@@ -25,7 +25,8 @@ module.exports = {
 		}
 	},
 	"rules": {
-		"react/no-unescaped-entities": 0
+		"@typescript-eslint/explicit-module-boundary-types": "off",
+		"react/no-unescaped-entities": "off"
 	},
 	"overrides": [
 		{
