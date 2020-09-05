@@ -1,6 +1,10 @@
+## v3.0.0 | 5 September 2020
+
+- Updated all packages
+
 ## v2.0.1 | 23 May 2020
 
-- Fix regression warning for `@typescript-eslint/explicit-module-boundary-types`
+- Fixed regression warning for `@typescript-eslint/explicit-module-boundary-types`
 
 ## v2.0.0 | 23 May 2020
 
