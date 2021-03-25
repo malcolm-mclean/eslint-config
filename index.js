@@ -1,47 +1,34 @@
 module.exports = {
-	"extends": [
-		"plugin:@typescript-eslint/eslint-recommended",
-		"plugin:@typescript-eslint/recommended",
+	env: {
+		browser: true,
+		es2021: true,
+		"jest/globals": true,
+	},
+	extends: [
 		"plugin:react/recommended",
+		"plugin:@typescript-eslint/recommended",
+		"prettier",
+		"plugin:prettier/recommended",
 		"plugin:react-hooks/recommended",
-		"prettier"
+		"plugin:jsx-a11y/recommended",
+		"plugin:jest/recommended",
 	],
-	"env": {
-		"browser": true,
-		"node": true
+	parser: "@typescript-eslint/parser",
+	parserOptions: {
+		ecmaFeatures: {
+			jsx: true,
+		},
+		sourceType: "module",
 	},
-	"parser": "@typescript-eslint/parser",
-	"parserOptions": {
-		"ecmaVersion": 6,
-		"sourceType": "module",
-		"ecmaFeatures": {
-			"modules": true
-		}
+	plugins: ["react", "@typescript-eslint", "prettier", "jsx-a11y", "jest"],
+	settings: {
+		react: {
+			version: "detect",
+		},
 	},
-	"plugins": ["@typescript-eslint", "react"],
-	"settings": {
-		"react": {
-			"version": "detect"
-		}
-	},
-	"rules": {
+	rules: {
 		"@typescript-eslint/explicit-module-boundary-types": "off",
-		"react/no-unescaped-entities": "off"
+		"jsx-a11y/no-onchange": "off",
+		"react/react-in-jsx-scope": "off",
 	},
-	"overrides": [
-		{
-			"files": ["**/*.test.*"],
-			"env": {
-				"jest": true
-			},
-			"plugins": ["jest"],
-			"rules": {
-				"jest/no-disabled-tests": "warn",
-				"jest/no-focused-tests": "error",
-				"jest/no-identical-title": "error",
-				"jest/prefer-to-have-length": "warn",
-				"jest/valid-expect": "error"
-			}
-		}
-	]
 };
