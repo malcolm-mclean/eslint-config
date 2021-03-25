@@ -1,4 +1,4 @@
-## v4.0.1 | 24 March 2021
+## v4.0.2 | 24 March 2021
 
 - Fixed breaking reference to Prettier plugin
 
