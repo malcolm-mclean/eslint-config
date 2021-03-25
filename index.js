@@ -20,7 +20,7 @@ module.exports = {
 		},
 		sourceType: "module",
 	},
-	plugins: ["react", "@typescript-eslint", "prettier", "jsx-a11y", "jest"],
+	plugins: ["react", "@typescript-eslint", "jsx-a11y", "jest"],
 	settings: {
 		react: {
 			version: "detect",
