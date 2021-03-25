@@ -1,6 +1,6 @@
 {
 	"name": "@malcolm-mclean/eslint-config",
-	"version": "4.0.0",
+	"version": "4.0.1",
 	"description": "Shared Typescript linting styles for my personal projects",
 	"main": "index.js",
 	"repository": "git@github.com:malcolm-mclean/eslint-config.git",
